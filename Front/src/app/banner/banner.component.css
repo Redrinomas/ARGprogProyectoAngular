@@ -1,0 +1,21 @@
+.Banner{
+    background: url('/assets/img/background1.jpg') no-repeat center center/cover;
+    height: 10rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+img{
+    position: absolute;
+    bottom:30% ;
+    right:40%;
+    width: 20%;
+    z-index: 0;
+}
+
+
+.jbl{
+    background: rgba(46, 45, 65, 0.801);
+    font-family: 'Zilla Slab', serif;
+   box-shadow: 10px 10px 5px;
+}
