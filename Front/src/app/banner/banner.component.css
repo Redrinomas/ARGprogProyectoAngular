@@ -6,10 +6,10 @@
 }
 
 img{
-    position: absolute;
-    bottom:30% ;
-    right:40%;
+    position: relative;
+    bottom:60%;
     width: 17rem;
+    right:15%;
 }
 
 
@@ -17,4 +17,17 @@ img{
     background: rgba(46, 45, 65, 0.801);
     font-family: 'Zilla Slab', serif;
    box-shadow: 10px 10px 5px;
+}
+
+.sobremi{
+    margin-top:-10rem;
+}
+
+@media screen and (max-width:575px){
+    img{
+        position: relative;
+        bottom:60%;
+        width: 17rem;
+        left:30%;
+    }
 }
