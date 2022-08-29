@@ -31,3 +31,21 @@ img{
         left:30%;
     }
 }
+
+@media screen and (max-width:880px){
+    img{
+        position: relative;
+        bottom:60%;
+        width: 17rem;
+        right:50%;
+    }
+}
+
+@media screen and (max-width:750px){
+    img{
+        position: relative;
+        bottom:60%;
+        width: 17rem;
+        right:70%;
+    }
+}
