@@ -11,6 +11,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { FooterComponent } from './footer/footer.component';
 import { ScrollComponent } from './scroll/scroll.component';
+import { LoginComponent } from './login/login.component';
+import { IndexComponent } from './index/index.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ScrollComponent } from './scroll/scroll.component';
     SkillsComponent,
     ProyectosComponent,
     FooterComponent,
-    ScrollComponent
+    ScrollComponent,
+    LoginComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
